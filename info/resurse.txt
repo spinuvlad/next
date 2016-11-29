@@ -1,0 +1,9 @@
+fonts:
+fonts4web.ru  --> alege font  --> download -->copie dosarul din arhiv in dosarul "fonts"
+de pe site copie blocul de cod pt font --> paste in fonts.css
+
+images:
+random images: http://lorempixel.com/
+
+carousel:
+http://owlgraphic.com/owlcarousel/

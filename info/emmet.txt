@@ -1,0 +1,36 @@
+emmet
+http://webdesign-master.ru/blog/html-css/2.html
+
+bg  	--> backgroung
+bgc 	--> background-color
+pt100   --> padding-top: 100px;
+mb12    --> margin-bottom: 12px;
+bd      --> display: block;
+dib     --> display: inline-block;
+c#f     --> color: white/#fff
+tdu     --> text-decoration: underline;
+m0+p0   --> margin: 0; padding: 0;
+lisstn  --> list-style-type: none;  /*scoate punctarea din ul*/
+ttu     --> text-transform: uppercase; /*litere mari*/
+h1{hello} > <h1>hello</h1>
+
+a[href="#"]*2:
+<a href="#"></a>
+<a href="#"></a>
+
+ul>li*10>a[href="#"]>lorem4
+			<ul>
+				<li><a href="#">Lorem ipsum dolor sit.</a></li>
+				<li><a href="#">Voluptatem velit, neque nam!</a></li>
+				<li><a href="#">Ipsum laudantium dolorem fuga?</a></li>
+				<li><a href="#">Voluptatibus totam vel nisi.</a></li>
+				<li><a href="#">Dolorum id accusantium commodi.</a></li>
+				<li><a href="#">Doloremque, minus, saepe. Asperiores.</a></li>
+				<li><a href="#">Quam architecto, impedit veritatis.</a></li>
+				<li><a href="#">Dolor vel, earum praesentium.</a></li>
+				<li><a href="#">Soluta esse magnam harum.</a></li>
+				<li><a href="#">Magni facere at animi?</a></li>
+			</ul>
+
+
+

@@ -1,0 +1,72 @@
+1. add package:
+CTRL + ~ in proga Sublime
+www.google.com --> package control sublime text 3 --> primul link --> copy text --> paste in prog. 
+2. resetar sublime text
+
+3.CTRL + SHIFT + P --> INSTALL PACKAGE
+
+install:
+4. emmet
+
+5. Preference -->Key Bingings --> (setare combinatie taste) in partea dreapta (copy/paste):
+{ "keys": ["alt+shift+f"], "command": "reindent" },       - aranjeaza codul frumos
+
+
+5. Preference  --> Settings (copy/paste):
+	"margin": 2,
+	"fold_buttons": false,
+	"tab_size": 2,
+	"highlight_line": true,
+	"line_padding_top": 1,
+	"auto_complete": false,
+
+6.View --> Layout --> Column2         formeaza 2 coloane
+		F11  -- full screen
+
+7. Install google chrome:
+http://askubuntu.com/questions/510056/how-to-install-google-chrome
+
+PLUGINS:
+1. LiveReload:
+https://github.com/Grafikart/ST3-LiveReload    --> Download Zip
+Preference  --> Browse Packages  --> in mapa deschisa include continutul zip-ului
+Redenumim mapa in numele: "LiveReload"
+Restartam Sublime Text
+
+	Instalam extensia:
+http://livereload.com/extensions    --- lucreaza cu chrome
+Dupa instalare va aparea pictograma extensiei. Click dreapta --> Gestionati extensiile  -->bifa pe: Permite accesul la adresele URL din fisiere  -->restart
+
+Preference -->Package settings  -->LiveReload -->Settings-User --> (copy/paste):
+		{
+			"enabled_plugins": [
+				"SimpleReloadPlugin",
+				"SimpleRefresh"
+				]
+		}
+
+Click dreapta pe fisierul *.html din sublime  -->Open in Browser (chrome)  -->click pe pictograma. Dupa ce salvezi apar schimbari automat
+
+2. CTRL + SHIFT + P  -->Install Package  -->sass
+[in caz ca nu se afiseaza culoarea de sintaza sass: View --> Syntax --> Open all with... -->sass]
+
+3. install: jade
+
+4. install gist
+instra in contul github -->Settings -->Personal access tokens -->Generate new token  -->bifa: gist  -->ok   [codul aparut copy]
+Preferences -->Package Settings -->Gist -->Settings - Default  -->insereaza codul copiat in "token" [daca nu se insereaza copie tot continutul precedent si insereaza in fisierul nou creat: Preference -->Browse Package  -->creaza mapa: "Gist", iar in mapa fisierul text: "Gist.sublime-settings
+Combinatia de taste CTRL + K + O deschide gist-urile noastre salvate
+
+5. install: BracketHighlighter
+
+6. install: AutoFileName
+
+7. install: Color Highlighter
+
+8. Goto-CSS-Declaration   ---gaseste clasa data in html in css sau sass
+click dreapta pe class in html si alege "Go to css declaration" 
+--> combinatia de taste poate fi observata in Preferance -->Package Settings  -->Goto  -->Key - Default:  "super=tasta windows"
+
+
+
+ 
