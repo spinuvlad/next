@@ -1,0 +1,266 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: red 3px solid;
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+/*PERSONAL STYLE*/
+.header__top{
+	background-color: #4aaad2;
+}
+.header__top__line{
+	background-color: #43484c;
+	padding: 15px 0; /*top/bottom: 15px; left/right: 0*/;
+	color: #fff;
+}
+.header__top__line a{
+	color: #fff;
+}
+.header__top__links a{
+	text-decoration: underline;
+}
+.header__top__links a:hover{
+	text-decoration: none;
+}
+.auth__buttons,
+.main__menu__button{
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+}
+.main__menu__button{
+	color: #fff;
+	padding: 8px 15px 0; 
+}
+/*vertical centered links*/
+.header__top__links{  
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 100;  /* pt a acoperi logo la ecrane mici */
+}
+/*float right soc__buttons*/
+.header__soc__buttons{
+	float: right;
+}
+
+.header__soc__buttons > a{
+	margin-left: 8px;
+	font-size: 26px;
+}
+
+/*LOGO*/
+#logo{
+	display: block;
+	padding: 15px 0;
+	color: #fff;
+	font-family: "NautilusPompiliusRegular";
+	font-size: 42px;
+	text-align: center;
+}
+
+/*main menu*/
+header .main__menu{
+	background-color: #3797bf;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: uppercase; /* textul cu litere mari */
+}
+header .main__menu a{
+	color: #fff;
+	padding: 15px 15px;
+	display: block;
+	transition: 0.25s;
+}
+header .main__menu a:hover{
+	background-color: #2787af;
+}
+.main__menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+}
+.top__contacts{  /*aici dispare fonul dat pt ".main__menu"
+				rezolvare: in html cu class"main__menu* adauga classa bootstrap: "clearfix"*/
+	float: right;
+	font-size: 32px;
+  padding: 0 15px;
+  background-color: #2787af;
+  line-height: 53px;
+}
+.top__contacts i{
+	margin-right: 15px;
+}
+.main__menu ul li{
+	display: inline-block;
+}
+.main__menu ul {
+	z-index: 1000;
+}
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "AaarghRegular";
+	font-weight: 100;
+	font-size: 40px;
+}
+
+/*slider*/
+.slider__container img {
+	width: 100%;
+	box-shadow: 10px 10px 100px 100px black;
+}
+.slider__container{
+	position: relative;
+	box-shadow: 0 3px 50px 3px white;
+}
+.next_button,
+.prev_button{
+	background-color: transparent;
+	border:none;
+	color: #fff;
+	font-size: 46px;
+	position: absolute;
+	top: 43%;
+	z-index: 10;
+	cursor: pointer;
+	opacity: 0.2;
+}
+.next_button{
+	right: 20px;
+}
+.prev_button{
+	left: 20px;
+}
+section.order{
+	background-color: #eee;
+	padding: 25px 0;
+	margin-top: -10px;
+}
+.sell__description{
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sell__button .button{
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	border: none;
+	background-color: #2bc6a4;
+	color: #fff;
+	padding: 17px 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	transition: 0.25s;
+	float: right;
+	margin-top: 15px;
+}
+.sell__button .button:hover{
+	background-color: #4feac8;
+}
+.sell__button .button:active{ /* in momentul butonarii - nu lucreaza!!!*/
+	background-color: red;
+}
+section.order .sell__description p{
+	font-family: "AaarghRegular";
+font-weight: 100;
+font-size: 20px;
+color: black;
+margin: 0;
+}
+
+/*forma ascunsa*/
+#callback .sell__button{
+	background-color: #2bc6a4;
+	color: #fff;
+	padding: 17px 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	transition: 0.25s;
+	border: none;
+	margin: auto 25px;
+}
+.pop__form h3{
+text-align: center;
+}
+.pop__form input[type="text"] {
+	display: block;
+	width: 90%;
+	line-height: 24px;
+	margin: 0 auto 12px;
+	border: #999 3px solid;
+}
+
+/*section main__content*/
+.blog__item img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.blog__item h3{
+	text-transform: uppercase;
+	font-family: "AaarghRegular";
+	margin-bottom: 10px;
+}
+.blog__item h3 a{
+	text-decoration: underline;  /*linie la a: true */
+}
+.blog__item h3 a:hover{
+	text-decoration: none;
+}
+.blog__item p{
+	margin-top: 0; 
+}
+
+.right__aside{
+	padding: 15px 20px 15px 12px;
+	border-radius: 5px;
+	background-color: #eeeeee;
+	margin-top: 30px;
+}
+.right__aside ul li{
+	list-style-type: none;
+}
+.right__aside ul li a{
+	text-decoration: underline;
+}
+.right__aside ul li a:hover{
+	text-decoration: none;
+}
+
+
+
+
+
+
+.hidden__form{
+	display: none;
+}
+.test{
+	height: 1000px;
+}
