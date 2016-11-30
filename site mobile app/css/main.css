@@ -45,6 +45,7 @@ body {
 }
 .header__top__links a:hover{
 	text-decoration: none;
+	cursor: pointer;
 }
 .auth__buttons,
 .main__menu__button{
@@ -70,6 +71,7 @@ body {
 .header__soc__buttons > a{
 	margin-left: 8px;
 	font-size: 26px;
+	cursor: pointer;
 }
 
 /*LOGO*/
@@ -97,6 +99,7 @@ header .main__menu a{
 }
 header .main__menu a:hover{
 	background-color: #2787af;
+	cursor: pointer;
 }
 .main__menu ul{
 	margin: 0;
@@ -180,6 +183,7 @@ section.order{
 	transition: 0.25s;
 	float: right;
 	margin-top: 15px;
+	cursor: pointer;
 }
 .sell__button .button:hover{
 	background-color: #4feac8;
@@ -229,6 +233,7 @@ text-align: center;
 }
 .blog__item h3 a{
 	text-decoration: underline;  /*linie la a: true */
+	cursor: pointer;
 }
 .blog__item h3 a:hover{
 	text-decoration: none;
@@ -251,8 +256,86 @@ text-align: center;
 }
 .right__aside ul li a:hover{
 	text-decoration: none;
+	cursor: pointer;
 }
 
+/*footer*/
+.footer__bottom{
+	background-color: #43484c;
+	width: 100%;
+	color: #fff;
+}
+.footer__h2{
+		text-transform: uppercase;
+		font-size: 20px;
+		margin: 15px 0 10px 0;
+		font-weight: 100;
+}
+.footer__line{
+	width: 70px;
+	height: 1px;
+	background-color: #4aaad2;
+}
+.footer__about .p__line{
+	width: 100%;
+	height: 1px;
+	background-color: #eeeeee;
+	opacity: 0.3;
+	margin: 30px 0 30px 0;
+}
+.footer__copyright{
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+.footer__copyright a{
+	text-decoration: underline;
+}
+.footer__copyright a:hover{
+	text-decoration: none;
+}
+/*footer contacts*/
+.footer__contacts p{
+	margin: 5px 0 20px 0;
+	font-size: 12px;
+	color: #2787BB;
+	opacity: 0.6;
+}
+.footer__contacts i{
+	color: #4aaad2;
+
+}
+.footer__contacts a{
+	color: #2787BB;
+	opacity: 0.6;
+}
+.footer__contacts .footer__line{
+	margin-bottom: 15px;
+}
+.footer__soc__buttons{
+	list-style-type: none;
+	margin-left: -30px;
+}
+.footer__soc__buttons li{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+/*footer navigation*/
+.footer__navigation ul{
+list-style-type: none;
+padding-left: 0;
+}
+.footer__navigation ul li{
+	margin-bottom: 5px;
+}
+.footer__navigation ul li a{
+	color: #4aaad2;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.footer__navigation ul li a:hover{
+	text-decoration: none;
+}
 
 
 
@@ -260,7 +343,4 @@ text-align: center;
 
 .hidden__form{
 	display: none;
-}
-.test{
-	height: 1000px;
 }
